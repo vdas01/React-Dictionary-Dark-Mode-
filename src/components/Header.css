@@ -1,8 +1,9 @@
 .title{
     font-size: 7vw;
+   
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 8vh;
+    margin-bottom: 6vh;
     margin-top: 2vh;
 }
 .header{
@@ -12,13 +13,18 @@
     height: 35vh;
     width: 100%;
     flex-direction: column;
-    margin-top: 3vh;
-   
+    /* margin-top: 3vh; */
+   margin-bottom: 3vh;
+}
+@media (max-height:448px){
+    .title{
+        font-size: 4vw;
+    }
 }
 @media(max-width:900px){
     .header{
          height: 25vh;
-         margin-bottom: 10vh;
+         margin-bottom: 17vh;
     }
     .title{
         font-size: 11vw;
@@ -39,4 +45,8 @@
 }
 .search,.select{
     width:43%;
+   
 }
+/* .MuiTextField-root p{
+    color: rgb(203, 198, 198);
+} */

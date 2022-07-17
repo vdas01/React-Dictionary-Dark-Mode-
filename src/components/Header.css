@@ -2,6 +2,8 @@
     font-size: 7vw;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8vh;
+    margin-top: 2vh;
 }
 .header{
     display: flex;
@@ -10,13 +12,23 @@
     height: 35vh;
     width: 100%;
     flex-direction: column;
+    margin-top: 3vh;
+   
 }
 @media(max-width:900px){
     .header{
          height: 25vh;
+         margin-bottom: 10vh;
     }
     .title{
         font-size: 11vw;
+        height: 8vh;
+        margin-bottom: 14vh;
+        margin-top: 2vh;
+    }
+    .inputs {
+        height: 4vh;
+        
     }
 }
 .inputs{

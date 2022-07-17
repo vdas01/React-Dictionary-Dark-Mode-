@@ -22,7 +22,7 @@ function App() {
   
   const dictionaryApi = async()=>{
     try{
-       const res = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/${category}/${word}`);
+       const res = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/large`);
        console.log(res.data);
        setMeanings(res.data);
     }catch(err){

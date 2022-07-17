@@ -6,7 +6,7 @@ const Definition = ({word,category,meanings,lightTheme}) => {
     <div className='meaning' style={{scrollbarColor:lightTheme?'#000 #fff':'#fff #000'}}>
     {
       meanings[0] && word && category === "en" && (
-        <audio style={{backgroundColor:'#fff',borderRadius:10}} src={meanings[0].phonetics[0] && meanings[0].phonetics[0].audio } controls>Your browser doesn't support audio</audio>
+        <audio style={{backgroundColor:'#fff',borderRadius:10,marginBottom:'6vh'}} src={meanings[0].phonetics[0] && meanings[0].phonetics[0].audio } controls>Your browser doesn't support audio</audio>
       )
     }
       {

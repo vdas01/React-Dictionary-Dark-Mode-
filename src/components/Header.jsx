@@ -27,8 +27,10 @@ const Header = ({category,setCategory,word,setWord,lightTheme}) => {
            onChange={(e)=>{
             setCategory(e.target.value);
             setWord("");
+           
             }}
           helperText="Please select a language"
+          
         >
         {
             Categories.map((language)=>(
